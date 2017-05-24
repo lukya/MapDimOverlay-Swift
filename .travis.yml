@@ -1,4 +1,2 @@
 language: objective-c
-xcode_workspace: MapDimOverlay.xcworkspace
-xcode_scheme: MapDimOverlayDemo
-xcode_sdk: iphonesimulator
+script: xcodebuild -workspace MapDimOverlay.xcworkspace -scheme MapDimOverlay
